@@ -117,8 +117,16 @@
               "devServerTarget": "kcconsulting-app:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "kcconsulting-app"
+    }
+  },
+  "defaultProject": "kcconsulting-app",
+  "cli": {
+    "analytics": "77c6a8d8-f935-4bbc-822a-b74933c46286"
+  }
 }
