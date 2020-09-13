@@ -1,0 +1,93 @@
+.carousel-inner .carousel-item{
+    height: 85vh;
+}
+.banner{
+    -webkit-background-size:contain;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 85vh;
+}
+
+.carousel-caption{
+    padding-bottom: 27vh;
+}
+
+.carousel-caption h5{
+    color: rgb(255, 111, 54);
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.carousel-caption a{
+    background:  rgb(255, 111, 54);
+    padding: 15px 35px;
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+
+.carousel-caption a:hover{
+    background:  rgb(180, 56, 11);
+}
+
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.carousel-control .right{
+    background-image: none;
+}
+
+.carousel-control .left{
+    background-image: none;
+}
+
+.carousel-indicators .active{
+    background-color:#ff6f36;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    .carousel-caption{
+        padding-bottom: 17vh;
+    }
+
+    .carousel-caption h5{
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .carousel-inner .carousel-item{
+        height: 50vh;
+    }
+    .banner{
+        -webkit-background-size:cover;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 50vh;
+    }
+
+    .carousel-caption{
+        padding-bottom: 9vh;
+    }
+    .carousel-caption h5{
+        font-size: 25px;
+    }
+
+    .carousel-caption p{
+        font-size: 14px;
+    }
+
+    .carousel-caption a{
+        margin-top: 0;
+        padding: 10px 25px;
+    }
+
+}

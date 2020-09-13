@@ -1,0 +1,23 @@
+/*
+.navbar-inverse{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-inverse .container .navbar-brand{
+    color: #fff;
+    font-size: 40px;
+    padding: 40px 15px;
+    font-weight: 900;
+}
+
+.justify-content-end{
+    margin: 25px 0;
+}*/
+nav {
+    background: #000
+}
+.navbar-nav > li >a{
+    color: #fff;
+    text-transform: uppercase;
+}
