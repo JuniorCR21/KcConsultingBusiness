@@ -8,18 +8,18 @@
     background: linear-gradient(135deg, rgba(255,94,31,1) 0%, rgba(255,94,31,1) 50%, rgba(37,38,40,1) 50%, rgba(37,38,40,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5e1f', endColorstr='#252628', GradientType=1 );
     color: white;
-    padding: 10px;
+    padding: 8px;
 }
-#iEmail , #iPhone, #iPoint{
+#iEmail , #iPhone{
     margin: 0;
     padding: 0;
 }
-#Email , #Phone, #Point{
+#Email , #Phone{
     margin: 0;
     padding-left: 5px;
     text-decoration: unset
 }
-#iPhone,#iPoint{
+#iPhone{
     padding-left: 35px;
 }
 @media only screen and (max-width: 990px){
