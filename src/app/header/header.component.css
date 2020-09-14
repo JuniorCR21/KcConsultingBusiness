@@ -1,9 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /*
-.navbar-inverse{
-    background-color: transparent;
-    border-color: transparent;
-}
-
 .navbar-inverse .container .navbar-brand{
     color: #fff;
     font-size: 40px;
@@ -14,10 +10,8 @@
 .justify-content-end{
     margin: 25px 0;
 }*/
-nav {
-    background: #000
-}
+
 .navbar-nav > li >a{
-    color: #fff;
-    text-transform: uppercase;
+    color: #252628;
+    font-family: 'Roboto', sans-serif;;
 }

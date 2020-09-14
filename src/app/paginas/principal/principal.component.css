@@ -1,27 +1,55 @@
 .carousel-inner .carousel-item{
     height: 85vh;
 }
-.banner{
-    -webkit-background-size:contain;
+.banner1{
+    -webkit-background-size:cover;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 85vh;
+    background-attachment: fixed;
+    background: #000;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(66, 66, 66, 0.6)), url("https://www.ecestaticos.com/imagestatic/clipping/1f4/710/1f471046654d81b0c51bab4ff74de2ae/teletrabajo-en-tiempos-del-coronavirus-6-consejos-para-seguir-con-tu-empleo-en-casa.jpg?mtime=1583841819");
 }
 
+.banner2{
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 85vh;
+    background-attachment: fixed;
+    background: #000;
+   
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(66, 66, 66, 0.6)), url("https://www.asecoint.com.pe/wp-content/uploads/2016/03/slider_2.jpg");
+}
+
+.banner3{
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 85vh;
+
+    background: #000;
+   
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(66, 66, 66, 0.6)), url("https://radiofonica.com/wp-content/uploads/2020/06/trabajo1.jpg");
+}
 .carousel-caption{
-    padding-bottom: 27vh;
+    padding-bottom: 25vh;
 }
 
 .carousel-caption h5{
-    color: rgb(255, 111, 54);
+    color: white;
     font-size: 70px;
     text-transform: uppercase;
     font-weight: bold;
 }
 
 .carousel-caption a{
-    background:  rgb(255, 111, 54);
+    background:  #ff5e1f;
     padding: 15px 35px;
     display: inline-block;
     margin-top: 15px;
@@ -32,6 +60,7 @@
 
 .carousel-caption a:hover{
     background:  rgb(180, 56, 11);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05), 0 15px 40px rgba(0, 0, 0, 0.22);
 }
 
 .carousel-indicators li {
@@ -49,8 +78,23 @@
 }
 
 .carousel-indicators .active{
-    background-color:#ff6f36;
+    background-color:#ff5e1f;
 }
+
+/***** PARTE 1 *****/
+
+.titleInfo{
+    color: #232323;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.titleInfo span{
+    color:#ff5e1f;
+}
+
+/***** TABLETS Y CELULARES *****/
 
 @media only screen and (min-width: 767px) and (max-width: 991px) {
     .carousel-caption{
@@ -64,18 +108,18 @@
 
 @media only screen and (max-width: 767px){
     .carousel-inner .carousel-item{
-        height: 50vh;
+        height: 60vh;
     }
-    .banner{
+    .banner1,.banner2,.banner3{
         -webkit-background-size:cover;
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
-        height: 50vh;
+        height: 60vh;
     }
 
     .carousel-caption{
-        padding-bottom: 9vh;
+        padding-bottom: 12vh;
     }
     .carousel-caption h5{
         font-size: 25px;
@@ -87,7 +131,12 @@
 
     .carousel-caption a{
         margin-top: 0;
-        padding: 10px 25px;
+        padding: 8px 20px;
+        font-size: 11px;
+    }
+
+    .titleInfo{
+        font-size: 20px;
     }
 
 }

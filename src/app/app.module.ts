@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { PrincipalComponent } from './paginas/principal/principal.component';
 import { ContactoComponent } from './paginas/contacto/contacto.component';
+import { NavinfoComponent } from './navinfo/navinfo.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/Inicio', pathMatch: 'full'},
@@ -23,7 +24,8 @@ const routes: Routes = [
     FooterComponent,
     HeaderComponent,
     PrincipalComponent,
-    ContactoComponent
+    ContactoComponent,
+    NavinfoComponent
   ],
   imports: [
     BrowserModule,
