@@ -39,40 +39,35 @@
     height: 95vh;
 }
 .banner1{
-    -webkit-background-size:cover;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 95vh;
-    background-attachment: fixed;
     background: #000;
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(66, 66, 66, 0.6)), url("https://www.ecestaticos.com/imagestatic/clipping/1f4/710/1f471046654d81b0c51bab4ff74de2ae/teletrabajo-en-tiempos-del-coronavirus-6-consejos-para-seguir-con-tu-empleo-en-casa.jpg?mtime=1583841819");
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 95vh;
 }
 
 .banner2{
+    background: #000;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(66, 66, 66, 0.6)), url("https://www.asecoint.com.pe/wp-content/uploads/2016/03/slider_2.jpg");
     -webkit-background-size:cover;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 95vh;
-    background-attachment: fixed;
-    background: #000;
-   
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(66, 66, 66, 0.6)), url("https://www.asecoint.com.pe/wp-content/uploads/2016/03/slider_2.jpg");
 }
 
 .banner3{
+    background: #000;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(66, 66, 66, 0.6)), url("https://radiofonica.com/wp-content/uploads/2020/06/trabajo1.jpg");
     -webkit-background-size:cover;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 95vh;
-
-    background: #000;
-   
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(66, 66, 66, 0.6)), url("https://radiofonica.com/wp-content/uploads/2020/06/trabajo1.jpg");
 }
 .carousel-caption{
     padding-bottom: 25vh;
@@ -306,13 +301,14 @@
 .contParte2{
     height: 220px;
     width: 100%;
+    background: #000;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(66, 66, 66, 0.6)), url("https://blog.rhopen.com.br/wp-content/uploads/2019/03/280406-entenda-como-uma-consultoria-pode-contribuir-na-tomada-de-decisao.jpg");
+    background-attachment: fixed;   
     -webkit-background-size:cover;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background: #000;
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(66, 66, 66, 0.6)), url("https://www.hd-consultores.com/wp-content/uploads/2020/05/bg-06-free-img.jpg");
+    position: relative;
 }
 
 /**** END PARTE 3 ****/
@@ -369,6 +365,11 @@
 
     .container .box{
         align-items: center;
+    }
+
+    .contParte2{
+        height: 120px;
+        width: 100%;
     }
 
 }

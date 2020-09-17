@@ -1,0 +1,23 @@
+.imgContacto{
+    height: 60vh;
+    width: 100%;
+    background: #000;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(66, 66, 66, 0.6)), url("https://lh3.googleusercontent.com/proxy/qik4BcWwtGUXS0hY1QXDUKIj90W43Rg46Yri4eHank9TkDvzNJC_N85Er1-jo0NXQfo2n3ArAo__GHasesEje4tH3GJl9DgkvveeCl4brwMs");
+   /* background-attachment: fixed;   */
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.content{
+    background: transparent;
+      box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2),
+    -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+  padding: 0 15px 0;
+  min-height: 380px;
+}
+
+/***************************/
+
