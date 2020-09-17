@@ -134,15 +134,14 @@
 
 .section-services{
     padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #f4f7fc ;
+    padding-bottom: 20px;
     color: #fff;
 }
 
 .section-services .header-section .title{
     position: relative;
     margin-bottom: 20px;
-    padding-bottom: 15px;
+    padding-bottom: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #252628;
@@ -178,55 +177,146 @@
 .section-services .header-section .description{
     color: slategray;; 
 }
-
-.section-services .single-service{
-    margin-top: 20px;
-    background-color: #252628;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-}
-
-.section-services .single-service .part-1{
-    padding: 30px 40px 15px;
-    border-bottom: 2px solid #1d1e23;
-}
-
-.section-services .single-service .part-1 i{
-    margin-bottom: 17px;
-    padding-left: 40%;
-    font-size: 50px;
-    color:#ff5e1f;
-}
-
-.section-services .single-service .part-1 .title{
-    font-size: 17px;
-    font-weight: 400;
-    letter-spacing: 0.02em;
-    line-height: 1.8em;
-
-}
-
-.section-services .single-service .part-2{
-    padding: 30px 40px 30px;
-}
-
-.section-services .single-service .part-2 .description{
-    margin-bottom: 22px;
-    color: #858586;
-    font-size: 14px;
-    line-height: 1.8em;
-}
-
-.section-services .single-service .part-2 a{
-    color: #fff;
-    font-size: 14px;
-    text-decoration: none;
-}
-
-.section-services .single-service .part-2 a i{
-    margin-right: 10px;
-    color:#ff5e1f;
-}
 /**** END SERVICES*****/
+
+/**** ITEMS SERVICES ******/
+
+#itemsServices{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container .box{
+    position: relative;
+    width: 350px;
+    padding: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+/*
+.container .box:before{
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255,255,255,.1);
+    z-index: 2;
+    pointer-events: none;
+}*/
+
+.container .box .icon{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    transition: .8s;
+}
+
+.container .box:nth-child(1) .icon{
+    box-shadow: 0 0 0 0 #252628;
+    background: #252628;  
+}
+
+.container .box:nth-child(1):hover .icon{
+    box-shadow: 0 0 0 400px #252628;
+}
+
+.container .box:nth-child(2) .icon{
+    box-shadow: 0 0 0 0 #252628;
+    background:  #252628;  
+}
+
+.container .box:nth-child(2):hover .icon{
+    box-shadow: 0 0 0 400px  #252628;
+}
+
+.container .box:nth-child(3) .icon{
+    box-shadow: 0 0 0 0 #252628;
+    background:  #252628;  
+}
+
+.container .box:nth-child(3):hover .icon{
+    box-shadow: 0 0 0 400px  #252628;
+}
+
+.container .box:nth-child(4) .icon{
+    box-shadow: 0 0 0 0 #ff5e1f;
+    background: #ff5e1f;   
+}
+
+.container .box:nth-child(4):hover .icon{
+    box-shadow: 0 0 0 400px #ff5e1f;
+}
+
+.container .box:nth-child(5) .icon{
+    box-shadow: 0 0 0 0 #ff5e1f;
+    background: #ff5e1f;  
+}
+
+.container .box:nth-child(5):hover .icon{
+    box-shadow: 0 0 0 400px #ff5e1f;
+}
+
+.container .box:nth-child(6) .icon{
+    box-shadow: 0 0 0 0 #ff5e1f;
+    background: #ff5e1f;   
+}
+
+.container .box:nth-child(6):hover .icon{
+    box-shadow: 0 0 0 400px #ff5e1f;
+}
+
+.container .box .content{
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+.container .box:hover .content h5{
+    color: #ff5e1f;
+}
+
+.container .box:hover .content #ServiceDistint{
+    color: #252525;
+}
+
+.container .box:hover .content p{
+    color: #fff;
+}
+
+/**** END ITEMS SERVICES ******/
+
+
+/****** PARTE 3 ******/
+
+.contParte2{
+    height: 220px;
+    width: 100%;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: #000;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(66, 66, 66, 0.6)), url("https://www.hd-consultores.com/wp-content/uploads/2020/05/bg-06-free-img.jpg");
+}
+
+/**** END PARTE 3 ****/
+
 
 
 /***** TABLETS Y CELULARES *****/
@@ -275,6 +365,10 @@
         margin-top: 0;
         padding: 8px 20px;
         font-size: 11px;
+    }
+
+    .container .box{
+        align-items: center;
     }
 
 }
